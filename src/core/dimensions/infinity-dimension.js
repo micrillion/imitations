@@ -54,7 +54,7 @@ class InfinityDimensionState extends DimensionState {
     this._costMultiplier = COST_MULTS[tier];
     const POWER_MULTS = [null, 45, 30, 20, 15, 10, 7, 6, 5];
     this._powerMultiplier = POWER_MULTS[tier];
-    const BASE_COSTS = [null, 1e7, 1e8, 1e19, 1e18, 1e150, 1e220, 1e270, 1e300];
+    const BASE_COSTS = [null, 1e7, 1e8, 1e10, 1e18, 1e150, 1e220, 1e270, 1e300];
     this._baseCost = new Decimal(BASE_COSTS[tier]);
     this.ipRequirement = BASE_COSTS[1];
   }
